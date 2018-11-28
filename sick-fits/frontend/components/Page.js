@@ -46,6 +46,10 @@ body {
   margin: 0;
   font-size: 1.5rem;
 }
+a {
+  text-decoration: none;
+  color: ${theme.black}
+}
 `;
 
 class Page extends Component {
